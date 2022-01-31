@@ -24,12 +24,5 @@ def get_table():
 table = get_table()
 
 
-def colorize_result(result):
-    if result == "W":
-        return "[green]W[/green]"
-    elif result == "D":
-        return "[yellow]D[/yellow]"
-    elif result == "L":
-        return "[red]L[/red]"
 
 
