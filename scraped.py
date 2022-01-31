@@ -32,14 +32,4 @@ def colorize_result(result):
     elif result == "L":
         return "[red]L[/red]"
 
-# Get form data
 
-
-def get_form(position):
-    Lost = "Lost "
-    Drew = "Drew "
-    Won = "Won "
-    RESULT_REGEX = r'(Lost |Drew |Won )'
-    #current_cell = table[position][10]
-
-    #result = findall(RESULT_REGEX, current_cell)
