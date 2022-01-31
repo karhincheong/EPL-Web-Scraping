@@ -1,5 +1,4 @@
 from urllib.request import urlopen
-from re import findall
 from bs4 import BeautifulSoup
 
 URL = "https://www.theguardian.com/football/premierleague/table"
