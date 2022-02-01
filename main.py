@@ -42,11 +42,6 @@ for position in range(0, 19):
                   [4], srp.get_table()[position+1][5], srp.get_table()[position+1][6], srp.get_table()[position+1][7], srp.get_table()[position+1][8], srp.get_table()[position+1][9], concat_results(determine_result(srp.get_table()[position+1][10])))
 
 
-'''
-for position in range(0, 19):
-    team_result = (srp.get_table()[position+1][10]).strip()
-    print(team_result)
-'''
 
 
 if __name__ == "__main__":
