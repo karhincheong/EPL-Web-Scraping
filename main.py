@@ -36,7 +36,7 @@ def concat_results(results: list):
     return "".join(results)
 
 
-# Load all other than form data
+
 for position in range(0, 19):
     table.add_row(srp.get_table()[position+1][0], srp.get_table()[position+1][1], srp.get_table()[position+1][2], srp.get_table()[position+1][3], srp.get_table()[position+1]
                   [4], srp.get_table()[position+1][5], srp.get_table()[position+1][6], srp.get_table()[position+1][7], srp.get_table()[position+1][8], srp.get_table()[position+1][9], concat_results(determine_result(srp.get_table()[position+1][10])))
